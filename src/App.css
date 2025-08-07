@@ -1,38 +1,153 @@
-.App {
-  text-align: center;
+/* App.css - Estilos globales para la tienda Teji2Fera */
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f8f8f8;
+  color: #333;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+a {
+  text-decoration: none;
+  color: inherit;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+nav {
+  background-color: #D81B60;
+  padding: 1rem 2rem;
   display: flex;
-  flex-direction: column;
+  justify-content: space-between;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
   color: white;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
 }
 
-.App-link {
-  color: #61dafb;
+nav h1 {
+  margin: 0;
+  font-size: 1.5rem;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  font-weight: bold;
+  cursor: pointer;
+}
+
+nav ul li:hover {
+  text-decoration: underline;
+}
+
+button {
+  background-color: #D81B60;
+  color: white;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+button:hover {
+  background-color: #c2185b;
+}
+
+.container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 2rem;
+}
+
+/* Tarjetas de productos */
+.product-card {
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  padding: 1rem;
+  margin: 1rem;
+  text-align: center;
+  width: 250px;
+}
+
+.product-card img {
+  width: 100%;
+  border-radius: 6px;
+  margin-bottom: 0.5rem;
+}
+
+.product-card h3 {
+  margin: 0.5rem 0;
+}
+
+.product-card p {
+  font-size: 0.9rem;
+  margin-bottom: 1rem;
+}
+
+.products-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+}
+
+/* Estilos para el carrito */
+.cart-container {
+  max-width: 800px;
+  margin: auto;
+  background-color: white;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.cart-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 0;
+  border-bottom: 1px solid #ddd;
+}
+
+.cart-item:last-child {
+  border-bottom: none;
+}
+
+.cart-item img {
+  width: 80px;
+  border-radius: 6px;
+}
+
+.cart-summary {
+  margin-top: 2rem;
+  text-align: right;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+/* Home */
+.home-welcome {
+  text-align: center;
+  padding: 3rem;
+  background: linear-gradient(to right, #fce4ec, #f8bbd0);
+  border-radius: 10px;
+  margin: 2rem auto;
+  max-width: 800px;
+}
+
+.home-welcome h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  color: #D81B60;
+}
+
+.home-welcome h2 {
+  font-size: 1.5rem;
+  color: #555;
 }

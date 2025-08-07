@@ -1,0 +1,27 @@
+.navbar {
+  background-color: #222; /* fondo más oscuro */
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: center;
+}
+
+.nav-list {
+  list-style: none;
+  display: flex;
+  gap: 2rem;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-list li a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+.nav-list li a:hover {
+  color: #e91e63; /* color rosado fuerte al pasar el mouse */
+}
+
+
