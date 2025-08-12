@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "./static/css/main.f85e51e7.css",
-    "main.js": "./static/js/main.1f96fd8a.js",
-    "static/js/453.75ff9a78.chunk.js": "./static/js/453.75ff9a78.chunk.js",
-    "index.html": "./index.html",
-    "main.f85e51e7.css.map": "./static/css/main.f85e51e7.css.map",
-    "main.1f96fd8a.js.map": "./static/js/main.1f96fd8a.js.map",
-    "453.75ff9a78.chunk.js.map": "./static/js/453.75ff9a78.chunk.js.map"
+    "main.css": "/tienda-ropa/static/css/main.f85e51e7.css",
+    "main.js": "/tienda-ropa/static/js/main.768d920d.js",
+    "static/js/453.75ff9a78.chunk.js": "/tienda-ropa/static/js/453.75ff9a78.chunk.js",
+    "index.html": "/tienda-ropa/index.html",
+    "main.f85e51e7.css.map": "/tienda-ropa/static/css/main.f85e51e7.css.map",
+    "main.768d920d.js.map": "/tienda-ropa/static/js/main.768d920d.js.map",
+    "453.75ff9a78.chunk.js.map": "/tienda-ropa/static/js/453.75ff9a78.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f85e51e7.css",
-    "static/js/main.1f96fd8a.js"
+    "static/js/main.768d920d.js"
   ]
 }
