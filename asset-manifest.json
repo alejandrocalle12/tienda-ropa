@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/tienda-ropa/static/css/main.f85e51e7.css",
-    "main.js": "/tienda-ropa/static/js/main.768d920d.js",
+    "main.js": "/tienda-ropa/static/js/main.f3597c36.js",
     "static/js/453.75ff9a78.chunk.js": "/tienda-ropa/static/js/453.75ff9a78.chunk.js",
     "index.html": "/tienda-ropa/index.html",
     "main.f85e51e7.css.map": "/tienda-ropa/static/css/main.f85e51e7.css.map",
-    "main.768d920d.js.map": "/tienda-ropa/static/js/main.768d920d.js.map",
+    "main.f3597c36.js.map": "/tienda-ropa/static/js/main.f3597c36.js.map",
     "453.75ff9a78.chunk.js.map": "/tienda-ropa/static/js/453.75ff9a78.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f85e51e7.css",
-    "static/js/main.768d920d.js"
+    "static/js/main.f3597c36.js"
   ]
 }
